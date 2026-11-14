@@ -1,0 +1,36 @@
+{
+  "file": "trader_panic_2.csv",
+  "total_trades": 120,
+  "total_pnl": -23283,
+  "discipline_score": 70,
+  "personality": "The Nervous Seller",
+  "total_estimated_cost": 0,
+  "biases": {
+    "disposition_effect": {
+      "detected": false,
+      "avg_days_winners": 6.4,
+      "avg_days_losers": 1.0,
+      "ratio": 0.2,
+      "p_value": 1.0,
+      "severity": "Low",
+      "cost": 0
+    },
+    "overtrading_after_loss": {
+      "detected": false,
+      "gap_after_loss_days": 2.26,
+      "gap_after_win_days": 2.0,
+      "size_ratio": 0.97,
+      "p_value": 0.9354929193984911,
+      "severity": "Low",
+      "cost": 0,
+      "trades_affected": 0
+    },
+    "panic_selling": {
+      "detected": true,
+      "panic_trades": 54,
+      "panic_rate": 1.0,
+      "severity": "High",
+      "cost": null
+    }
+  }
+}

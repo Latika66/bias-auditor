@@ -1,0 +1,36 @@
+{
+  "file": "trader_biased_3.csv",
+  "total_trades": 120,
+  "total_pnl": -353074,
+  "discipline_score": 70,
+  "personality": "The Hopeful Holder",
+  "total_estimated_cost": 211838,
+  "biases": {
+    "disposition_effect": {
+      "detected": true,
+      "avg_days_winners": 2.5,
+      "avg_days_losers": 59.9,
+      "ratio": 24.2,
+      "p_value": 1.4325633709030826e-21,
+      "severity": "High",
+      "cost": 211838
+    },
+    "overtrading_after_loss": {
+      "detected": false,
+      "gap_after_loss_days": 1.85,
+      "gap_after_win_days": 1.98,
+      "size_ratio": 0.92,
+      "p_value": 0.27212544271567174,
+      "severity": "Low",
+      "cost": 0,
+      "trades_affected": 0
+    },
+    "panic_selling": {
+      "detected": false,
+      "panic_trades": 0,
+      "panic_rate": 0.0,
+      "severity": "Low",
+      "cost": null
+    }
+  }
+}

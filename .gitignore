@@ -1,0 +1,6 @@
+data/real/
+data/uploads/
+node_modules/
+.next/
+venv/
+__pycache__/

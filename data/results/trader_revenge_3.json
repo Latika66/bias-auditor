@@ -1,0 +1,36 @@
+{
+  "file": "trader_revenge_3.csv",
+  "total_trades": 120,
+  "total_pnl": -176801,
+  "discipline_score": 70,
+  "personality": "The Revenge Trader",
+  "total_estimated_cost": 196739,
+  "biases": {
+    "disposition_effect": {
+      "detected": false,
+      "avg_days_winners": 3.5,
+      "avg_days_losers": 3.5,
+      "ratio": 1.0,
+      "p_value": 0.38512452360301186,
+      "severity": "Low",
+      "cost": 0
+    },
+    "overtrading_after_loss": {
+      "detected": true,
+      "gap_after_loss_days": 0.04,
+      "gap_after_win_days": 3.26,
+      "size_ratio": 2.02,
+      "p_value": 4.271356811218722e-26,
+      "severity": "High",
+      "cost": 196739,
+      "trades_affected": 73
+    },
+    "panic_selling": {
+      "detected": false,
+      "panic_trades": 0,
+      "panic_rate": 0.0,
+      "severity": "Low",
+      "cost": null
+    }
+  }
+}

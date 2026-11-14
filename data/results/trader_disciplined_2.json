@@ -1,0 +1,36 @@
+{
+  "file": "trader_disciplined_2.csv",
+  "total_trades": 120,
+  "total_pnl": 38197,
+  "discipline_score": 100,
+  "personality": "The Steady Hand",
+  "total_estimated_cost": 0,
+  "biases": {
+    "disposition_effect": {
+      "detected": false,
+      "avg_days_winners": 6.5,
+      "avg_days_losers": 7.1,
+      "ratio": 1.1,
+      "p_value": 0.11767325230022202,
+      "severity": "Low",
+      "cost": 0
+    },
+    "overtrading_after_loss": {
+      "detected": false,
+      "gap_after_loss_days": 2.24,
+      "gap_after_win_days": 2.05,
+      "size_ratio": 0.85,
+      "p_value": 0.826569865214217,
+      "severity": "Low",
+      "cost": 0,
+      "trades_affected": 0
+    },
+    "panic_selling": {
+      "detected": false,
+      "panic_trades": 0,
+      "panic_rate": 0.0,
+      "severity": "Low",
+      "cost": null
+    }
+  }
+}
